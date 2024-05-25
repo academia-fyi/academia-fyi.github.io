@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-cd /academia.fyi/frontend
-npm install
+cd /academia.fyi
 
-cd /academia.fyi/backend
-pip install -r requirements.txt
+pnpm config set store-dir ~/.local/share/pnpm/store
+pnpm install
